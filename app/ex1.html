@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js redirect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<table align="left" border=1>
+<tbody>
+<tr>
+<td>
+<td style="vetical-align-top:200px;width:50px">
+<div id="panelstudmenus">
+<nav class="vertical">
+    <ul>
+      <li>
+       <button  allign="left" onclick="calculate()">Calculate</button>                   
+       <button  allign="left" onclick="calculate1()">Calculate</button>
+       <button  allign="left" onclick="calculate2()">Calculate</button>
+       <button  allign="left" onclick="calculate3()">Calculate</button>
+      </li>
+    </ul>  
+  </nav>
+</div>
+  </td>
+ </tr>
+</tbody>
+</table>
+    <script src="script.js"></script>
+     <span id="result"></span>
+<script> function calculate() {
+     let resultString = You need to attend 1 days for getting;
+   document.getElementById("result").innerHTML = resultString;
+}
+ function calculate1() {
+     let resultString = You need to attend 2 days for getting;
+   document.getElementById("result").innerHTML = resultString;
+}
+ function calculate2() {
+     let resultString = You need to attend 3 days for getting;
+   document.getElementById("result").innerHTML = resultString;
+}
+ function calculate3() {
+     let resultString = You need to attend 4  days for getting;
+   document.getElementById("result").innerHTML = resultString;
+}
+</script>
+
+<style>body{
+  text-align:center;
+  font-famliy: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: purple;
+}</style>
+</body>
+</html>
